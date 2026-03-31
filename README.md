@@ -2,6 +2,8 @@
 
 Production-ready FastAPI backend for large CSV movie ingestion and query APIs backed by MongoDB.
 
+Postman Collection: [here](./Content_Review_and_Upload.postman_collection.json)
+
 ## Features
 
 - Streaming CSV upload endpoint (`POST /upload`) with 1GB limit
