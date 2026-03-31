@@ -3,7 +3,7 @@
 FastAPI backend for large CSV movie ingestion and query APIs backed by MongoDB.
 
 
-### Postman Collection: [here](./Content_Review_and_Upload.postman_collection.json)
+#### Postman Collection: [JSON](./Content_Review_and_Upload.postman_collection.json) | [Link](https://www.postman.com/maintenance-astronomer-3943408/workspace/nomnom-api/collection/33355633-0d32c04c-6edf-49af-8623-ebafdbce1a07?action=share&source=copy-link&creator=33355633)
 
 ## Features
 
