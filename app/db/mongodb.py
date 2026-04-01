@@ -13,10 +13,6 @@ class MongoDB:
     async def connect(self) -> None:
         settings = get_settings()
         mongodb_uri = settings.mongodb_uri.strip()
-        if "<db_password>" in mongodb_uri:
-            raise RuntimeError(
-                "MONGODB_URI still contains '<db_password>'. Replace it with the real Atlas user password."
-            )
 
         self._client = AsyncIOMotorClient(mongodb_uri, serverSelectionTimeoutMS=10000)
         try:
